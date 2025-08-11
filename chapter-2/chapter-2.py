@@ -54,3 +54,10 @@ print(f"common spices: {common_spices}")
 only_in_essential = essential_spices - optional_spices
 
 print(f"Only essential spices:{only_in_essential}")
+
+
+# Dictionary
+chai_order = dict(type="Masala Chai" , size="large" , sugar=2)
+
+
+print(f"Chai Order:{chai_order}")
